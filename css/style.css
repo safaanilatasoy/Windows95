@@ -148,6 +148,7 @@ border: 1px dotted #fff;
 
 
 .recycle-bin {
+    display:none;
     background-color: #c0c0c0;
     width: 400px;
     height: 400px;
