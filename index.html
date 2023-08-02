@@ -10,7 +10,7 @@
 <body>
 
     <div class="container">
-        <div class="draggableImage">
+        <div class="draggableImage" onclick = "openFolder('recycle-bin')">
             <img class="mainIcon"  src="images/bin-empty.ico"/>
             <span>Recycle</span>
         </div>    
@@ -20,11 +20,9 @@
     </div>
 
     
- <div class="draggableImage">
-
+<div div div class = "draggableImage">
         <img class="mainIcon"  src="images/cs1-6.ico"/>
         <span>Counter strike 1.6</span>
-
     </div>
 
     <div class="draggableImage">
@@ -59,6 +57,38 @@
 
     </div>
     
+<div class="recycle-bin" id="recycle-bin" >
+
+
+        <div class="title-bar">
+            <div class="window-title">Recycle Bin</div>
+            <div class="close-button" onclick="closeWindow()">
+                <img src="images/close.svg" width="20"/>
+            </div>
+           
+            
+            
+        </div>
+        <div class="window-url-bar">
+            <ul class="sub-content-bar">
+                <li>File</li>
+                <li>Edit</li>
+                <li>View</li>
+                <li>Help</li>
+
+            </ul>
+            
+        </div>
+        <div class="content">
+            <!-- Geri dönüşüm kutusu içeriği burada yer alacak -->
+            <p>Öğe 1</p>
+            <p>Öğe 2</p>
+            <p>Öğe 3</p>
+            <!-- Daha fazla öğe ekleyebilirsiniz -->
+        </div>
+    </div>
+
+
 
 
 
