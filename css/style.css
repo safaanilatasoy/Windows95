@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background: #018281;
+
+}
+ 
+.taskbar{
+    width: 100%;
+    display: flex;
+    background: #808080;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    border: 1px solid #fff;
+
+    
+}
+
+
+
+.taskbar button {
+    background: #808080;
+    border: 1px solid;
+    border-color: #fff #000 #000 #fff;
+    height: 90%;
+    margin: auto 2px;
+    cursor: pointer;
+
+}
+.taskbar span{
+position: relative;
+bottom: 2px;
+}
+
+
+
+.taskbar button img{
+    position: relative;
+    top:3px;
+    width: 24px;
+}
+
+.taskbar button:hover{
+    background: #606060;
+
+}
