@@ -54,3 +54,88 @@ bottom: 2px;
     background: #606060;
 
 }
+
+
+.container{
+    width: 100vh;
+    height: 100vh;
+}
+.mainIcon{
+width: 4vh;
+
+}
+
+
+.draggableImage {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    width:41px;
+    height: 100px;
+    cursor:pointer;
+    position: absolute;
+    top: 0; /* Başlangıç yüksekliği */
+    left: 0; /* Başlangıç genişliği */
+}
+
+.draggableImage img {
+    width: 100%;
+    height: auto;
+}
+.draggableImage span {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+}
+
+
+
+.draggableImage:active{
+cursor: move;
+
+}
+
+.draggableImage:nth-child(1) {
+    top: 25px;
+    left: 25px;
+}
+
+.draggableImage:nth-child(2) {
+    top: 125px; 
+    left: 25px;
+}
+.draggableImage:nth-child(3) {
+    top: 225px;
+    left: 25px;
+}
+.draggableImage:nth-child(4) {
+    top: 325px;
+    left: 25px;
+}
+
+
+.draggableImage:nth-child(5) {
+    top: 425px;
+    left: 25px;
+}
+
+.draggableImage:nth-child(6) {
+    top: 525px;
+    left: 25px;
+}
+
+.draggableImage:nth-child(7) {
+    top: 625px;
+    left: 25px;
+}
+
+.draggableImage:nth-child(8) {
+    top: 25px;
+    left: 125px;
+}
+
+
+
+
