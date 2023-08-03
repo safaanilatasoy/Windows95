@@ -147,7 +147,7 @@ border: 1px dotted #fff;
 }
 
 
-.recycle-bin {
+.bin-general-component {
     display:none;
     background-color: #c0c0c0;
     width: 400px;
@@ -201,6 +201,14 @@ border: 1px dotted #fff;
 
 .content {
     padding: 10px;
+    background:#fff;
+    width: 99%;
+    height: 79%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1%;
+    border: 2px groove #504e4e;
+    
 }
 
 .content p {
@@ -225,3 +233,4 @@ border: 1px dotted #fff;
 .sub-content-bar li:hover{
     background:#808080;
 }
+

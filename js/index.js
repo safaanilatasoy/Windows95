@@ -38,9 +38,9 @@ function openFolder(folderId) {
 }
 
 
-function closeWindow() {
-    var recycleBin = document.querySelector('.recycle-bin');
-    recycleBin.style.display = 'none';
+function closeWindow(windowID) {
+    var window = document.getElementById(`${windowID}`);
+    window.style.display = "none";
 }
 
 
@@ -71,3 +71,4 @@ dragable.forEach(function (image) {
     isDragging = false;
   });
 });
+

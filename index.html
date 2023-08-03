@@ -15,7 +15,8 @@
             <span>Recycle</span>
         </div>    
     <div class="draggableImage">
-        <img class="mainIcon"  src="images/myComputer.ico"/>
+<img class="mainIcon" src="images/myComputer.ico" onclick="openFolder('myComputer')"/>
+
         <span>My Computer</span>
     </div>
 
@@ -57,13 +58,14 @@
 
     </div>
     
-<div class="recycle-bin draggableImage" id="recycle-bin">
+<div class="bin-general-component draggableImage" id="recycle-bin">
+
 
 
 
         <div class="title-bar">
             <div class="window-title">Recycle Bin</div>
-            <div class="close-button" onclick="closeWindow()">
+            <div class="close-button" onclick="closeWindow('recycle-bin')">
                 <img src="images/close.svg" width="20"/>
             </div>
            
@@ -88,6 +90,33 @@
             <!-- Daha fazla öğe ekleyebilirsiniz -->
         </div>
     </div>
+<div class="bin-general-component draggableImage" id="myComputer">
+
+
+
+    <div class="title-bar">
+        <div class="window-title">My Computer</div>
+        <div class="close-button" onclick="closeWindow('myComputer')">
+            <img src="images/close.svg" width="20"/>
+        </div>
+
+
+    </div>
+    <div class="window-url-bar">
+        <ul class="sub-content-bar">
+            <li>File</li>
+            <li>Edit</li>
+            <li>View</li>
+            <li>Help</li>
+
+        </ul>
+
+    </div>
+    <div class="content">
+        
+    </div>
+</div>
+
 
 
 
@@ -106,7 +135,9 @@
         <img src="images/win95logo.png"/>
        <span>Start</span> 
     </button>
+    
 </div>
+
 
     <!-- Main JS File -->
     <script src="js/index.js"></script>
